@@ -205,16 +205,41 @@ h2 {
 }
 
 .cert-card {
+    display: block;
+    text-decoration: none;
     background: rgba(15, 23, 42, 0.6);
     border: 1px solid var(--border);
     padding: 1rem;
     border-radius: 10px;
+    transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.cert-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+    background: var(--bg-card-hover);
 }
 
 .cert-card h3 {
     font-size: 0.98rem;
     color: #ffffff;
     margin-bottom: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.cert-link-icon {
+    font-size: 0.85rem;
+    color: var(--accent);
+    opacity: 0.75;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.cert-card:hover .cert-link-icon {
+    opacity: 1;
+    transform: translate(2px, -2px);
 }
 
 .cert-issuer {
