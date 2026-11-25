@@ -40,4 +40,4 @@ I am a **Technical Game Developer** with extensive experience in gameplay script
 
 | Category | Technologies & Competencies |
 | :--- | :--- |
-| **Game Engines & 3D** | Unity, Roblox Studio, Autodesk Maya, 3D Modelling, Animation
+| **Game Engines & 3D** | Unity, Roblox Studio, Autodesk Maya
